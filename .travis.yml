@@ -14,4 +14,6 @@ before_script:
     - composer self-update
     - composer install --dev
 
-script: make sniff test
+script:
+    - make sniff test
+    - php -v
